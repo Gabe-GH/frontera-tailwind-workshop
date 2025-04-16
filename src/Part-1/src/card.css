@@ -1,0 +1,19 @@
+.bg {
+    width: 100dvw;
+    height: 100dvh;
+    background: linear-gradient(#12001B 33%, #34004E 100%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#crystals {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+}
